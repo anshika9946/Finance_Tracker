@@ -1,18 +1,22 @@
 import React from "react";
-import Dashboard from "./Components/Dashboard.jsx";
+import { Chart } from "./components/Chart";
+import { Dashboard } from "./components/Dashboard";
+import { Filter } from "./components/Filter";
 
-import './App.css';
+import { BillProvider } from "./contexts/BillContext";
 
+import "./assets/css/app.css";
 
-
-const App = () => {
-	return (
- 
+function App() {
+  return (
+    <BillProvider>
       <div className="App">
+        <Chart />
         <Dashboard />
+        <Filter />
       </div>
-
-	);
+    </BillProvider>
+  );
 }
 
-export default App
+export default App;
