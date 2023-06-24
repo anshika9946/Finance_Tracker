@@ -1,8 +1,8 @@
 :root{
     --bg: white;
-    --purp: rgb(146, 0, 146);
-    --red: red;
-    --green: green;
+    --purp: rgb(78, 142, 215);
+    --red: rgb(255, 80, 80);
+    --green: rgb(8, 172, 8);
     --ylw: yellow;
   }
   *{
@@ -17,7 +17,7 @@
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(rgba(90, 68, 68, 0.5),rgba(0,0,0,0.5)), url("../images/bg.png");
+    background: linear-gradient(rgba(90, 68, 68, 0.5),rgba(0,0,0,0.5)), url("../images/bg.jpg");
     background-position: center;
     background-size: cover;
   }
